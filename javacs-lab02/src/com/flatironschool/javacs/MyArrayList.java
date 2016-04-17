@@ -39,7 +39,6 @@ public class MyArrayList<E> implements List<E> {
 		mal.add(2);
 		mal.add(3);
 		System.out.println(Arrays.toString(mal.toArray()) + " size = " + mal.size);
-		
 		mal.remove(new Integer(2));
 		System.out.println(Arrays.toString(mal.toArray()) + " size = " + mal.size);
 	}
@@ -62,7 +61,6 @@ public class MyArrayList<E> implements List<E> {
 		if (index < 0 || index > size) {
 			throw new IndexOutOfBoundsException();
 		}
-		// TODO: fill in the rest of this method
 	}
 
 	@Override
@@ -111,7 +109,6 @@ public class MyArrayList<E> implements List<E> {
 
 	@Override
 	public int indexOf(Object target) {
-		// TODO: fill in this method
 		return 0;
 	}
 
@@ -182,7 +179,6 @@ public class MyArrayList<E> implements List<E> {
 
 	@Override
 	public E remove(int index) {
-		// TODO: fill in this method.
 		return null;
 	}
 
@@ -202,7 +198,6 @@ public class MyArrayList<E> implements List<E> {
 
 	@Override
 	public E set(int index, E element) {
-		// TODO: fill in this method.
 		return null;
 	}
 
